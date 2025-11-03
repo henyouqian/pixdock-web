@@ -1,0 +1,8 @@
+{
+  "Homepage": {
+    "subtitle": "This subtitle is from a JSON file!"
+  },
+  "Metadata": {
+    "homepageTitle": "My Friend's Awesome Homepage"
+  }
+}
