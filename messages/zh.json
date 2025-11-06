@@ -1,8 +1,17 @@
 {
   "Homepage": {
-    "subtitle": "子标题!本地文件读取"
+    "subtitle": "子标题!本地文件读取",
+    "heroTitle": "跨越山海，只为成就非凡设计",
+    "heroDescription": "我们连接全球供应链、顶尖设计资源与摩洛哥本地工艺，为您的开发商、建筑师事务所或精品酒店项目，提供从材质寻源到项目落地的全流程整合服务。"
   },
   "Metadata": {
     "homepageTitle": "My Friend's Awesome Homepage"
+  },
+  "Navigation": {
+    "brandName": "PIXDOCK",
+    "aboutUs": "关于我们",
+    "servicesAndSolutions": "服务与解决方案",
+    "portfolio": "作品集",
+    "globalCollection": "全球收藏"
   }
 }

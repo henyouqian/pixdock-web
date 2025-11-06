@@ -1,0 +1,17 @@
+{
+  "Homepage": {
+    "subtitle": "هذا العنوان الفرعي من ملف JSON!",
+    "heroTitle": "عبور الجبال والبحار لتحقيق تصميم استثنائي",
+    "heroDescription": "نحن نربط سلاسل التوريد العالمية وموارد التصميم والحرفية المغربية لتقديم خدمات متكاملة من توريد المواد إلى إكمال المشروع."
+  },
+  "Metadata": {
+    "homepageTitle": "الصفحة الرئيسية الرائعة لصديقي"
+  },
+  "Navigation": {
+    "brandName": "PIXDOCK",
+    "aboutUs": "من نحن",
+    "servicesAndSolutions": "الخدمات والحلول",
+    "portfolio": "المحفظة",
+    "globalCollection": "المجموعة العالمية"
+  }
+}

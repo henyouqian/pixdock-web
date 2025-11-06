@@ -1,8 +1,17 @@
 {
   "Homepage": {
-    "subtitle": "This subtitle is from a JSON file!"
+    "subtitle": "This subtitle is from a JSON file!",
+    "heroTitle": "Crossing Mountains and Seas for Extraordinary Design",
+    "heroDescription": "We connect global supply chains, design resources, and Moroccan craftsmanship to deliver integrated services from material sourcing to project completion."
   },
   "Metadata": {
     "homepageTitle": "My Friend's Awesome Homepage"
+  },
+  "Navigation": {
+    "brandName": "PIXDOCK",
+    "aboutUs": "About Us",
+    "servicesAndSolutions": "Services & Solutions",
+    "portfolio": "Portfolio",
+    "globalCollection": "Global Collection"
   }
 }

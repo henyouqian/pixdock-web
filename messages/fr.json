@@ -1,0 +1,17 @@
+{
+  "Homepage": {
+    "subtitle": "Ce sous-titre provient d'un fichier JSON !",
+    "heroTitle": "Traverser montagnes et mers pour un design extraordinaire",
+    "heroDescription": "Nous connectons les chaînes d'approvisionnement mondiales, les ressources de design et l'artisanat marocain pour fournir des services intégrés de l'approvisionnement en matériaux à la réalisation du projet."
+  },
+  "Metadata": {
+    "homepageTitle": "Page d'accueil géniale de mon ami"
+  },
+  "Navigation": {
+    "brandName": "PIXDOCK",
+    "aboutUs": "À propos de nous",
+    "servicesAndSolutions": "Services et solutions",
+    "portfolio": "Portfolio",
+    "globalCollection": "Collection mondiale"
+  }
+}
