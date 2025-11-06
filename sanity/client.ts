@@ -5,7 +5,7 @@ import { apiVersion, dataset, projectId, useCdn } from "./env";
 
 export const client = createClient({
   apiVersion,
-  dataset,
-  projectId,
+  dataset: dataset || "production",
+  projectId: projectId || "dummy",
   useCdn,
 });
