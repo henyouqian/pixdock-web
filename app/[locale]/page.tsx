@@ -50,16 +50,20 @@ export default async function Home({ params }: Props) {
   // 2. 获取翻译 (getTranslations 或 useTranslations 都可以)
   const t = await getTranslations("Homepage");
 
-  // 3. 获取 Sanity 内容
-  const query = `*[_type == "homepage"][0] {
-  "title": title[_key == "${locale}"][0].value,
-  "description": description[_key == "${locale}"][0].value,
-  "showBanner": showBanner
-}`;
-  const data: HomepageData | null = await client.fetch(query);
-
-  // ✅ 现在可以直接使用，甚至不需要做任何检查
-  const sanityTitle = data?.title || "Default Title";
+  // 3. 获取 Sanity 内容（如果配置了环境变量）
+  let data: HomepageData | null = null;
+  if (process.env.NEXT_PUBLIC_SANITY_PROJECT_ID) {
+    try {
+      const query = `*[_type == "homepage"][0] {
+      "title": title[_key == "${locale}"][0].value,
+      "description": description[_key == "${locale}"][0].value,
+      "showBanner": showBanner
+    }`;
+      data = await client.fetch(query);
+    } catch (error) {
+      console.error("Failed to fetch from Sanity:", error);
+    }
+  }
 
   const newsItems = [
     {
